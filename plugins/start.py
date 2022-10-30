@@ -7,9 +7,7 @@ import datetime as dt
 async def start(client, message):
     # return
     joinButton = InlineKeyboardMarkup([
-        [InlineKeyboardButton("Channel", url="https://t.me/aryan_bots")],
-        [InlineKeyboardButton(
-            "Report Bugs 😊", url="https://t.me/aryanvikash")]
+        [InlineKeyboardButton("Channel", url="https://t.me/ytdofficial")]
     ])
 
     
