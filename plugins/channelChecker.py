@@ -30,7 +30,7 @@ async def inChannel(client,message):
 async def sendJoinmsg(message):
     joinButton=InlineKeyboardMarkup([
 
-        [InlineKeyboardButton("Join Update Channel", url="https://t.me/aryan_bots")]  
+        [InlineKeyboardButton("Join Update Channel", url="https://t.me/ytdofficial")]  
     
     ])
     await message.reply_text("join channel To access Bot 🔐 " ,reply_markup = joinButton)
